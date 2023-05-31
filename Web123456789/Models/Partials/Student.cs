@@ -22,7 +22,7 @@ namespace Web123456789.Models
         [Display(Name = "姓名")]
         [StringLength(5,MinimumLength =2,ErrorMessage ="請輸入2~5個字")]
         
-        public string Name
+        public string Username
         {
             get; set;
         }
